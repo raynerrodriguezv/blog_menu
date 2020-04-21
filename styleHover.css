@@ -1,0 +1,90 @@
+*
+{
+	margin:  0px;
+	padding: 0px;
+	font-family: verdana;
+}
+
+header
+{
+	margin: auto;
+	margin-top: 100px;
+	width: 1200px;
+	height: 230px;
+	background-color: red;
+}
+div.contenedor
+{
+	width: 200px;
+	height: 230px;
+	float:left;
+	-moz-transition: height .4s;
+
+
+}
+
+div#uno
+{
+	background-color: rgb(208,101,3); 
+}
+div#dos
+{
+	background-color: rgb(233,147,26); 
+}
+div#tres
+{
+	background-color: rgb(22,145,190); 
+}
+div#cuatro
+{
+	background-color: rgb(27,107,162); 
+}
+div#cinco
+{
+	background-color: rgb(27,54,71); 
+}
+div#seis
+{
+	background-color: rgb(21,40,54); 
+}
+
+img.icon
+{
+	display: block;
+	margin:auto;
+	margin-top: 50px;
+	background-color: rgba(255,255,255, .15);
+	width: 40px;
+	padding: 20px;
+	border-radius: 50%;
+	box-shadow:0px 0px 0px 30px rgba(255,255,255,0);
+	transition:  box-shadow .4s;
+}
+
+
+p.texto
+{
+	padding-top:15px;
+	font-size:  1.2em;
+	color:white;
+	text-align: center;
+	opacity: .6;
+	transition : padding-top.4s;
+}
+
+div.contenedor:hover
+{
+	height: 250px;
+}
+
+div.contenedor:hover p.texto
+{
+	padding-top: 30px;
+	opacity: 1;
+}
+
+
+div.contenedor:hover img.icon
+{
+	box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, .6)
+}
